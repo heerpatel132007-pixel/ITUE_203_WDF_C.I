@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title> CHARUSAT CLUB </title>
+        <style>
+           body{
+               font-family:Arial,sans-sirf;
+               background:white ;
+               margin:0;  
+            }
+            header{
+                background:blue;
+                color : white;
+                padding: 15 px;
+                display: flex;
+                justify-content: space-between;
+            }
+            nav{
+                display:flex;
+                gap: 20px;    
+            }
+            nav a{
+                color:white;
+                text-decoration:none;
+
+            }
+           nav a hover 
+           {
+
+            color:aqua;
+           }
+           .club,.gallery
+           {
+            text-align:center;
+            padding : 20px;
+
+           }
+           .card,.photos{
+            display:flex;
+            justify-content: center;
+            gap: 15px;
+           }
+         .card{
+            background:white;
+            width:200px;
+            padding : 10px;
+            border : 2px solid line;
+
+         } 
+         .card img{
+            width:100px;
+            height:90px;
+         } 
+         .card:hover{
+
+            transform:scale;
+         }
+         .photos img{
+             width:170px;
+            height:120px;
+            border:white;
+         }
+
+        .photos img hover{
+            transform:scale;
+
+        }
+        button{
+            background :black;
+            color: white;
+            padding:0;
+            border:0;
+        }
+        footer{
+             background:black;
+             color:white;
+             text-align:center;
+             padding:15px;
+        }
+         
+
+        
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2> CHARUSAT CLUB </h2>
+         <nav>
+            <a href="home.com"> Home</a>
+            <a href="club.com"> Club</a>
+            <a href="gallery.com">Gallery </a>
+            <a href="contact.com"> Contact</a>
+        </nav>
+        </header>
+        <section club = "clubs" id = "clubs">
+            <h2> OUR CLUBS </h2>
+
+            <div class = "cards">
+
+                <div class = "card">
+                    <img src = "https://via.placeholder.com/200x100">
+                    <h3> Technical Club </h3>
+                    <p> Learn new technologies and skills </p>
+                     <button> View Details </button>
+                </div>
+
+                <div class = "card">
+                <img src = "https://via.placeholder.com/200x100">
+                    <h3> Coding Club </h3>
+                    <p> Improve coding skills and knowledge </p>
+                     <button> View Details </button>
+                </div>
+
+                <div class = " card">
+                    <img src = "https://via.placeholder.com/200x100">
+                    <h3> Robotics Club </h3>
+                    <p> Learn robotics </p>
+                     <button> View Details </button>
+                </div>
+
+            </div>
+        </section>
+    <section class = "gallery" id = "gallery">
+        <h2>Club Gallery </h2>
+     <div class = "photos" >
+        <img src = "https://via.placeholder.com/180x120">
+        <img src = "https://via.placeholder.com/180x120">
+        <img src = "https://via.placeholder.com/180x120">
+        <img src = "https://via.placeholder.com/180x120">
+    
+     </div>
+    </section>
+
+        
+        <footer id ="contact" >
+            CHARUSAT,Anand <br>
+            Collge Club Activity - 2026;
+        </footer>
+
+    </body>
+</html>
